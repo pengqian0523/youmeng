@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{31731990-B328-4517-AAAE-3CFE2B98AE38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{1EA47BC9-CC51-488B-9B5C-4E8E8993A7BE}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\framework">
+      <UniqueIdentifier>{CE53E781-66C1-41C0-8D13-67A629DA491E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\framework\SocketServer">
+      <UniqueIdentifier>{8E433C83-D713-4EB9-9566-CD9FCB3A1B67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\game">
+      <UniqueIdentifier>{A12EFC56-FE60-4C24-9C4F-6778A78E85DC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\SocketServer\autolink.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\SocketServer\json_batchallocator.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <None Include="..\Classes\framework\SocketServer\json_internalarray.inl">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </None>
+    <None Include="..\Classes\framework\SocketServer\json_internalmap.inl">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </None>
+    <ClInclude Include="..\Classes\framework\SocketServer\json_lib.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\SocketServer\json_reader.cpp">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\SocketServer\json_tool.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\SocketServer\json_value.cpp">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClCompile>
+    <None Include="..\Classes\framework\SocketServer\json_valueiterator.inl">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </None>
+    <ClCompile Include="..\Classes\framework\SocketServer\json_writer.cpp">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\SocketServer\ServerSocket.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\SocketServer\YMconfig.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\SocketServer\YMEvent.cpp">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\SocketServer\YMEvent.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\SocketServer\YMEventDispatcher.cpp">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\SocketServer\YMEventDispatcher.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\SocketServer\YMfeatures.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\SocketServer\YMforwards.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\SocketServer\YMreader.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\SocketServer\YMSocketData.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\SocketServer\YMSocketDataEvent.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\SocketServer\YMSocketEvent.cpp">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\SocketServer\YMSocketEvent.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\SocketServer\YMTcpSocket.cpp">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\SocketServer\YMTcpSocket.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\SocketServer\YMvalue.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\framework\SocketServer\YMwriter.h">
+      <Filter>Classes\framework\SocketServer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\YMClientSocket.cpp">
+      <Filter>Classes\framework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\YMClientSocket.h">
+      <Filter>Classes\framework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\YMCommonLabelTTF.cpp">
+      <Filter>Classes\framework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\YMCommonLabelTTF.h">
+      <Filter>Classes\framework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\YMCursorTextField.cpp">
+      <Filter>Classes\framework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\YMCursorTextField.h">
+      <Filter>Classes\framework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\YMDebugCmd.cpp">
+      <Filter>Classes\framework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\YMDebugCmd.h">
+      <Filter>Classes\framework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\YMDebugUserData.cpp">
+      <Filter>Classes\framework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\YMDebugUserData.h">
+      <Filter>Classes\framework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\YMIconv.cpp">
+      <Filter>Classes\framework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\YMIconv.h">
+      <Filter>Classes\framework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\framework\YMLabelTTF.cpp">
+      <Filter>Classes\framework</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\framework\YMLabelTTF.h">
+      <Filter>Classes\framework</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\game\gameLayer.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\game\gameLayer.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\game\LogoScene.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\game\LogoScene.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\game\myClient.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\game\myClient.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\testResource.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\tests.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\VisibleRect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClInclude Include="..\Classes\VisibleRect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClCompile Include="..\Classes\game\Teacher_Level.cpp">
+      <Filter>Classes\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\Classes\game\Teacher_Level.h">
+      <Filter>Classes\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mygame.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\logoscene\btn-test-0.png" />
+    <None Include="..\Resources\logoscene\btn-test-1.png" />
+    <None Include="..\Resources\logoscene\btn-test-2.png" />
+    <None Include="..\Resources\logoscene\logoscene.json" />
+    <None Include="..\Resources\logoscene\scrollviewbg.png" />
+  </ItemGroup>
+</Project>
