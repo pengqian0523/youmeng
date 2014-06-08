@@ -1,0 +1,23 @@
+创建数据库名
+create database ym_table_1;
+
+创建表名：
+create table hero(
+id varchar(30) key not null;
+name varchar(30) key not null;
+)
+
+增加一个字段
+alter table hero add columns username varchar(30) not null;
+
+插入一行数据:
+insert into hero values('111','test','a');
+
+更新某个字段类型
+alter table hero alter column id varchar(50);
+
+更新某行某个字段的值：
+update hero set password='a' where sex>-1;
+
+查询语句：
+select * from hero;
